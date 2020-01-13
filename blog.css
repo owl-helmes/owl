@@ -1,17 +1,25 @@
-header{
- height: 300px;
-}
 .header-logo img{
-  width:25px;
-  height:25px
+  width: 27px;
+  padding-top: 0px ;
+  padding-left: 0px;
+  text-align: left;
+}
+.header-title {
+ font-family: 'Allura', cursive;
+ text-align: center;
+ font-size: 40px;
+
 
 }
-.header-title{
- font-family: Yu Mincho;
- text-align: center;
- font-size: 40px
-}
-.main-title{
-  font-family: Yu Micho;
+.main-title {
+  font-family: 'Allura', cursive;
   text-align: center;
+  font-size: 2em;
+  line-height: 6;
+  display: block;
+  padding-top: 200px;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: #000000;
+
 }
