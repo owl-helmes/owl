@@ -1,17 +1,21 @@
+header{
+  height: 0px;
+}
 .header-logo img{
-  width: 27px;
-  padding-top: 0px ;
-  padding-left: 0px;
-  text-align: left;
+  width: 34px;
+  height: 34px:
 }
-.header-title {
+.main-title{
+  height: 600px;
+}
+.main-title h1 {
  font-family: 'Allura', cursive;
+ font-size: 80px;
  text-align: center;
- font-size: 40px;
-
-
+ padding-top: 200px
 }
-.main-title {
+
+.top-title {
   font-family: 'Allura', cursive;
   text-align: center;
   font-size: 2em;
@@ -22,4 +26,14 @@
   border-bottom-style: solid;
   border-bottom-color: #000000;
 
+}
+footer{
+  height:5px;
+
+
+
+}
+.fab{
+  color:#4dabf7;
+  font-size: 1.7em;
 }
