@@ -1,9 +1,18 @@
+*{
+  box-sizing:border-box;
+}
+
+
+
 header{
   height: 50px;
+  position:fixed;
+  top: 0px;
+  z-index: 10;
 }
 header img{
   width:  50px;
-  height: 50px:
+  height: 50px;
 
 
 }
@@ -30,6 +39,17 @@ header img{
   border-bottom-width: thin;
   border-bottom-style: solid;
   border-bottom-color: #000000;
+
+}
+.contens{
+  display: flex;
+}
+.contens btn{
+  flex:auto;
+}
+.content1 img{
+  width: 220px;
+  height: 200px;
 
 }
 footer{
